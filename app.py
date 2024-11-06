@@ -11,5 +11,10 @@ st.write("This is a simple Streamlit app.")
 
 st.dataframe(df)
 
-#put a graph 
-st.bar_chart(df)
+#put a graph, just the distribution of petal length
+st.write("Distribution of petal length")
+st.line_chart(df['petal length (cm)'])
+
+#put a graph, just the distribution of petal width
+st.write("Distribution of petal width")
+st.line_chart(df['petal width (cm)'])
