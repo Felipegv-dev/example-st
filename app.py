@@ -12,11 +12,11 @@ st.write("This is a simple Streamlit app.")
 st.dataframe(df)
 
 #put a graph, just the distribution of petal length
-st.write("Distribution of petal length")
+st.write("petal length")
 st.line_chart(df['petal length (cm)'])
 
 #put a graph, just the distribution of petal width
-st.write("Distribution of petal width")
+st.write("petal width")
 st.line_chart(df['petal width (cm)'])
 # targethistogram
 st.write("target hist")
