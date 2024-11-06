@@ -18,3 +18,6 @@ st.line_chart(df['petal length (cm)'])
 #put a graph, just the distribution of petal width
 st.write("Distribution of petal width")
 st.line_chart(df['petal width (cm)'])
+# targethistogram
+st.write("target hist")
+st.bar_chart(df['target'].value_counts())
