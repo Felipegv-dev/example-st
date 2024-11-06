@@ -11,3 +11,5 @@ st.write("This is a simple Streamlit app.")
 
 st.dataframe(df)
 
+#put a graph 
+st.bar_chart(df)
